@@ -26,7 +26,7 @@ class TikTokService {
     // Jika di HP: 192.168.x.x -> ws://192.168.x.x:62024
     const hostname = localhost;
     const port = '62024'; // Port standar Indofinity/TikFinity
-    this.wsUrl = `ws://${hostname}:${port}`;
+    this.wsUrl = `ws://{hostname}:{port}`;
 
     console.log(`[TikTokService] Connecting to WebSocket at: ${this.wsUrl}`);
     this.updateStatus(ConnectionStatus.CONNECTING);
