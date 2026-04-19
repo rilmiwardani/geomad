@@ -24,7 +24,7 @@ class TikTokService {
     // Menggunakan hostname dari browser. 
     // Jika di PC: localhost -> ws://localhost:62024
     // Jika di HP: 192.168.x.x -> ws://192.168.x.x:62024
-    const hostname = window.location.hostname;
+    const hostname = localhost;
     const port = '62024'; // Port standar Indofinity/TikFinity
     this.wsUrl = `ws://${hostname}:${port}`;
 
