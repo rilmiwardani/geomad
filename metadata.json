@@ -1,0 +1,6 @@
+{
+  "name": "GeoMad",
+  "description": "Explore the world and guess the location using Google Street View.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
